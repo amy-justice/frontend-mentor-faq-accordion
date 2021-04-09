@@ -17,12 +17,101 @@ body {
     justify-content: center;
 }
 
-.accordion-background {
-    background-color: #f3f3f3;
-    border-radius: 5rem;
-    padding: 2rem;
-    width: 25rem;
+.panel-background {
+    background-color: #fff;
+    border-radius: 2rem;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0 4px 13px rgba(0,0,0,0.3);
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.panel-image {
+    background: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: -26rem -14rem;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.panel-image img.main-img {
+    width: 110%;
+    transform: translate(-3.5rem, 3rem);
+}
+
+img.secondary-img {
+    transform: translate(-28.5rem, 10.5rem);
+    position: absolute;
+    z-index: 1;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 55%;
+    height: 100%;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.accordion-faq {
+    width: 100%;
+    height: 100%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel h2 {
+    font-size: 2rem;
+    margin: 1.5rem 1rem 1rem;
+}
+
+button.accordion-question {
+    background-color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    // border-bottom: 0.05rem solid hsl(0,0%,90%);
+    padding: 1rem 0;
+    width: 90%;
+    text-align: left;
+}
+
+button.accordion-question:after {
+    content: url(/images/icon-arrow-down.svg);
+    float: right;
+    margin-right: 1rem;
+}
+
+button.accordion-question:hover {
+    cursor: pointer;
+    color: hsl(14, 88%, 65%)
+}
+
+button.accordion-question:focus {
+    outline: none;
+}
+
+.accordion-panel {
+    font-size: 0.9rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 0.05rem solid hsl(0,0%,90%);
+    width: 90%;
+}
+
+.accordion-panel p {
+    margin: 0 0.5rem 1rem;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 0.5rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
