@@ -145,6 +145,11 @@ and (max-device-width: 480px) {
         transform: translate(2rem, -7.5rem);
     }
 
+    img.secondary-img {
+        width: 30%;
+        transform: translate(-6rem, -14.5rem);
+    }
+
     .right-panel {
         width: 100%;
         align-items: center;

@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview](https://raw.githubusercontent.com/amy-justice/frontend-mentor-faq-accordion/main/images/Screenshot%202021-04-09%20191842.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://elegant-haibt-6a4728.netlify.app/)
+- Live Site URL: [https://elegant-haibt-6a4728.netlify.app/](https://elegant-haibt-6a4728.netlify.app/)
 
 ## My process
 
