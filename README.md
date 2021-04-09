@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://elegant-haibt-6a4728.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-js-faq-accordion-WVwxjun1U](https://www.frontendmentor.io/solutions/html-css-js-faq-accordion-WVwxjun1U)
 - Live Site URL: [https://elegant-haibt-6a4728.netlify.app/](https://elegant-haibt-6a4728.netlify.app/)
 
 ## My process
