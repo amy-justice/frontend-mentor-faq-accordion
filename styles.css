@@ -35,7 +35,6 @@ body {
     background-position: -26rem -14rem;
     width: 45%;
     height: 100%;
-    overflow: hidden;
 }
 
 .panel-image img.main-img {
@@ -83,6 +82,7 @@ button.accordion-question {
     padding: 1rem 0;
     width: 90%;
     text-align: left;
+    font-weight: 400;
 }
 
 button.accordion-question:after {
@@ -115,3 +115,41 @@ button.accordion-question:focus {
 
 .attribution { font-size: 11px; text-align: center; margin-top: 0.5rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (min-device-width: 320px) 
+and (max-device-width: 480px) {
+    body {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .panel-background {
+        width: 90vw;
+        height: auto;
+        max-height: 90vh;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12rem;
+    }
+
+    .panel-image {
+        background-position: center -10rem;
+        width: 100%;
+        height: 100%;
+        background-size: 90%;
+    }
+
+    .panel-image img.main-img {
+        width: 80%;
+        transform: translate(2rem, -7.5rem);
+    }
+
+    .right-panel {
+        width: 100%;
+        align-items: center;
+        margin-top: -5rem;
+        padding: 0 0.5rem 2rem;
+        font-size: 0.7rem;
+    }
+}
