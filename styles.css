@@ -147,7 +147,8 @@ and (max-device-width: 480px) {
 
     img.secondary-img {
         width: 30%;
-        transform: translate(-6rem, -14.5rem);
+        transform: translate(-6rem, 0);
+        top: 9rem;
     }
 
     .right-panel {
